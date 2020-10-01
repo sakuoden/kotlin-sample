@@ -8,6 +8,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
+    implementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation 'org.jetbrains.kotlin:kotlin-test-junit5'
 }
 compileKotlin {
